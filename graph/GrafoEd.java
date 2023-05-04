@@ -93,7 +93,7 @@ class Graph {
         return null;
     }
 }
-public class ReadFile {
+public class GrafoEd {
     
     public static Graph loadFrom(String fileName) throws FileNotFoundException {
         File file = new File(fileName);
@@ -174,6 +174,4 @@ int k=2, y=4;
 System.out.println("Caminho entre " + k + " e " + y + ": ");
 gr.dfs(k, y) ;
 }
-   
 }
-
